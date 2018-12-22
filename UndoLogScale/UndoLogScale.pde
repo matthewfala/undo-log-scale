@@ -9,11 +9,11 @@ final String input_image = "LogAM3025.PNG";
 final String output_image = "unscaledLog_output.jpg";
 final double calVal1 = 0.1;
 final double calVal2 = 10;
+final int pwr = 10;
 
 // init
 PImage log_img;
 PImage lin_img; 
-int pwr = 10;
 //int linScale = 3;
 int pixel1 = 500;
 int click;
